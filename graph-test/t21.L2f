@@ -1,0 +1,11 @@
+(:g
+0 0
+(x <- 3)
+(rax <- x)
+(goto :jump)
+(y <- 7)
+(rax -= y)
+:jump
+(z <- 23)
+(rax -= z)
+(return))
