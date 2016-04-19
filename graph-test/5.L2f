@@ -1,0 +1,12 @@
+(:goto
+  0 0
+  (x <- :jump)
+  (goto x)
+  :middle
+  (y <- :fin)
+  (goto y)
+  :jump
+  (x <- :middle)
+  (goto x)
+  :fin
+  (return))

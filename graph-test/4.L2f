@@ -1,0 +1,9 @@
+
+ (:encode_decode
+  0 0
+  (x <- 7)
+  (x <<= 1)
+  (rdi += 8)
+  (rdi >>= x)
+  (call print 1)
+  (return))
