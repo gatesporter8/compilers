@@ -1,0 +1,10 @@
+(:math
+  0 0
+  (y <- 5)
+  (rdi *= y)
+  (x <- 3)
+  (rdi -= y)
+  (rdi *= x)
+  (z <- 15)
+  (rdi -= z)
+  (return))

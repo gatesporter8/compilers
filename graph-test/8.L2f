@@ -1,0 +1,9 @@
+(:func_2arg_fail
+  0 0
+  (x <- 11)
+  ((mem rsp -8) <- :f_ret)
+  (call :foo 2)
+  :f_ret
+  (rax <- 5)
+  (rax *= x)
+  (return))
